@@ -37,7 +37,7 @@ class get_chat_history(SkillBase):
             from openai import OpenAI
             self.model = "deepseek-chat"
             self.client = OpenAI(
-                api_key="sk-6c08791db9be47dfafe9b5529a734ae2",
+                api_key="sk-**********************",
                 base_url="https://api.deepseek.com/v1",
             )
             self.has_openai = True

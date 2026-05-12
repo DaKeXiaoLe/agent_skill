@@ -33,6 +33,10 @@ cd agent-skill
 # 安装依赖
 pip install openai requests
 ```
+### 设置API密钥
+
+main.py(line 27)
+skill\get_chat_history.py(line 40)
 
 ### 启动
 
