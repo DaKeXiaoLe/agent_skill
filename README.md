@@ -33,10 +33,6 @@ cd agent-skill
 # 安装依赖
 pip install openai requests
 ```
-### 设置API密钥
-
-main.py(line 27)
-skill\get_chat_history.py(line 40)
 
 ### 启动
 
@@ -188,7 +184,7 @@ self.model = "deepseek-chat"  # 可替换为其他兼容模型
 
 ### 修改 API 地址
 
-在 [`main.py`](main.py:28) 中修改 `base_url`：
+在 [`main.py`](main.py:27) 、[`get_chat_history.py`](skill\get_chat_history.py:40)中修改 `base_url`：
 
 ```python
 self.client = OpenAI(
