@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual Environment
+venv/
+.venv/
+py31011/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Logs
+*.log
+conversations/
+
+# Tokenizer cache
+skill/tokenizer/tokenizer.json
+skill/tokenizer/tokenizer_config.json
+
+# Temp files
+temp_token_count.py
